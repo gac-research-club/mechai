@@ -10,13 +10,13 @@ export default function Fill() {
   return (
     <div className="">
       <div className="snap-always snap-start h-screen w-screen" style={{position: "relative"}}>
-        <Background background={bg}/>
+        <Background background={bg} priority={true}/>
       </div>
       <div className="snap-always snap-start bg-blue-200 h-screen w-screen" style={{position: "relative"}}>
-        <Background background={bg2}/>
+        <Background background={bg2} priority={false}/>
       </div>
       <div className="snap-always snap-start bg-green-200 h-screen w-screen" style={{position: "relative"}}>
-        <Background background={bg3}/>
+        <Background background={bg3} priority={false}/>
       </div>
       <div className="snap-always snap-end bg-red-200 h-48 w-screen"></div>
     </div>
