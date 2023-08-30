@@ -8,6 +8,18 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'GAC Lab',
   description: 'Learning with Game',
+  icons: {
+    icon: [
+      '/favicon.ico?v=2'
+    ],
+    apple: [
+      '/apple-touch-icon.png'
+    ],
+    shortcut: [
+      'apple-touch-icon.png'
+    ],
+  },
+  manifest: '/site.webmanifest'
 }
 
 export default function RootLayout({
