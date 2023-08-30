@@ -1,7 +1,6 @@
-`use client`
+"use client"
 
 import Fill from '@/components/fill'
-import SocialMedia from '@/components/socialMedia'
 
 export default function Home() {
   return (
